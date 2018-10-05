@@ -2,7 +2,7 @@
 
 
     var url = `https://discordapp.com/api/guilds/406653822929207298/widget.json`;
-/* Alot of this code makes no sense bc I don't really understand the api's ^ (url above) response to change */
+
 try {
     $.get(url, {"Content-Type": "application/json"},function( start ) {
         var content = "#n1"
