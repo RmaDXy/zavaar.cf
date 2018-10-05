@@ -1,0 +1,133 @@
+/* Made by Zua (Zavaar Shah) @ https://github.com/thatziv */
+/* Alot of this was just for testing but im still leaving it here */
+
+body {
+    background-color: #202020;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+main {
+    flex: 1 0 auto;
+  }
+      
+
+hr {
+    width: 75%;
+}
+
+#but {
+    padding-top: 23px;
+}
+
+.spinner-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1f1f1f;
+    z-index: 999999;
+    
+    }
+
+.spinner {
+position: absolute;
+top: 48%;
+left: 48%;
+
+}
+
+.progress {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+    width: 50%;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 50%;
+}
+
+.pagination {
+    bottom: 0;
+}
+
+#bottom {
+    bottom: 1.5vh;
+}
+
+#linkCard {
+    background-color: #363636;
+    color: rgb(211, 211, 211);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+#container {
+    padding: 25px;
+    float:left;
+}
+
+.gr {
+    color: rgb(180, 180, 180);
+}
+
+.blackTxt {
+    color: rgb(29, 28, 28);
+}
+
+.darkBlu {
+    color: #06567e;
+}
+
+#bigText {
+    font-size: 50px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+    background: #202020;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+
+    background: #2196F3 ; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+
+    background: rgb(16, 70, 114) ; 
+}
+
+.botTag-2WPJ74{-ms-flex-negative:0;border-radius:3px;flex-shrink:0;font-size:.625em;font-weight:500;line-height:1.3;padding:1px 2px;text-transform:uppercase;vertical-align:middle}
+.botTagRegular-2HEhHi{background:#7289da;color:#fff}
+.bot-2Fta1w{line-height:1.3;margin-left:1ch}
